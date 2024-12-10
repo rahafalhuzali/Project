@@ -14,7 +14,6 @@ This project classifies tweets as **real disaster tweets** or **non-disaster twe
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Code Walkthrough](#code-walkthrough)
-- [Results](#results)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -79,3 +78,8 @@ Quickly inspects the head of the training and test datasets using print(df_train
 Generates a detailed HTML report for the training dataset using df_train.profile_report().
 
 ---
+## Acknowledgments
+
+Kaggle for the dataset: Real or Not? NLP with Disaster Tweets.
+YData for the ydata-profiling package used for EDA.
+Open-source contributors for libraries like pandas, numpy, and ydata-profiling.
