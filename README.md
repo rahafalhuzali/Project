@@ -13,11 +13,8 @@ This project classifies tweets as **real disaster tweets** or **non-disaster twe
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Code Walkthrough](#code-walkthrough)
 - [Results](#results)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -53,6 +50,7 @@ The dataset is sourced from Kaggle's competition: **[Real or Not? NLP with Disas
 
 ---
 
+
 ## Installation
 
 ### Prerequisites
@@ -61,9 +59,22 @@ The dataset is sourced from Kaggle's competition: **[Real or Not? NLP with Disas
 - Jupyter Notebook
 - Kaggle API for downloading datasets (if required).
 
-### Steps:
+  ---
+  ## Code Walkthrough
 
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+-**Import Libraries**:
+Imports essential libraries like pandas and numpy for data manipulation.
+Loads the dataset into df_train and df_test.
+
+-**Exploratory Data Analysis (EDA)**:
+Utilizes the ydata-profiling package for generating an in-depth analysis report of the dataset.
+Outputs HTML-based profiling of the training data.
+![Word Cloud](images/er_diagram.png)
+
+-**Data Inspection**:
+Quickly inspects the head of the training and test datasets using print(df_train.head()) and print(df_test.head()).
+
+-**Profile Report**:
+Generates a detailed HTML report for the training dataset using df_train.profile_report().
+
+---
