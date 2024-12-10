@@ -70,7 +70,7 @@ Loads the dataset into df_train and df_test.
 Utilizes the ydata-profiling package for generating an in-depth analysis report of the dataset.
 Outputs HTML-based profiling of the training data.
 
-![Word Cloud](images/Word.png)
+![Word Cloud](Word.png)
 
 -**Data Inspection**:
 Quickly inspects the head of the training and test datasets using print(df_train.head()) and print(df_test.head()).
