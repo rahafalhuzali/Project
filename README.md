@@ -1,8 +1,8 @@
 # Disaster Tweets Classification
 
-This project focuses on classifying tweets as real disaster tweets or not using Natural Language Processing (NLP) techniques. It uses a dataset from Kaggle's **"Real or Not? NLP with Disaster Tweets"** competition.
+This project classifies tweets as **real disaster tweets** or **non-disaster tweets** using Natural Language Processing (NLP) techniques. It is based on the dataset from Kaggle's **"Real or Not? NLP with Disaster Tweets"** competition.
 
-![Project Status](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)
+![Project Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
@@ -15,7 +15,7 @@ This project focuses on classifying tweets as real disaster tweets or not using 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Walkthrough](#code-walkthrough)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Results](#results)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
@@ -28,10 +28,11 @@ The goal of this project is to classify tweets into two categories:
 - **Disaster Tweets (target = 1)**: Tweets related to real disasters.
 - **Non-Disaster Tweets (target = 0)**: Tweets unrelated to disasters.
 
-Key highlights of this project:
-- Utilizes `ydata-profiling` for Exploratory Data Analysis (EDA).
-- Prepares datasets for future NLP model training.
-- Provides a framework for understanding the dataset and feature engineering.
+### Key Highlights:
+- **Exploratory Data Analysis (EDA)**: Performed using `ydata-profiling` for comprehensive insights.
+- **Preprocessing**: Text cleaning, tokenization, removing stopwords, and lemmatization.
+- **Modeling**: Used an LSTM (Long Short-Term Memory) model for classification.
+- **Evaluation**: Achieved **98% accuracy** on the validation dataset.
 
 ---
 
